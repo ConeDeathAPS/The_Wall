@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+#header {
+	background: #772F2F;
+	height: 70px;
+	width: 100%;
+	border-bottom: 4px solid #370000;
+}
+	#header p {
+		color: white;
+		font-weight: bold;
+		font-size: 2em;
+	}
+	#header ul {
+		list-style-type: none;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 17px;
+	}
+	#header li {
+		display: inline-block;
+		margin-left: 30px;
+	}
+	#header img {
+		height: 70px;
+		display: inline-block;
+		margin-right: 21%;
+		margin-left: 15%
+	}
+.fix {
+	border: 2px solid red;
+}
+#registration_field {
+	width: 400px;
+	height: 500px;
+	background: #7E7E7E;
+	color: #370000;
+	margin: 20px auto;
+	border: 4px solid #370000;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+}
+	#registration_field h4 {
+		margin-bottom: 10px;
+		border-bottom: 3px solid #370000;
+	}
+	#registration_field p {
+		margin: 10px;
+	}
+	.butt {
+		border: 2px solid black;
+		border-radius: 6px;
+		padding: 10px 25px;
+		background: #772F2F;
+		font-weight: bold;
+		color: white;
+		margin-bottom: 10px;
+	}
+	#old_user {
+	text-decoration: none;
+	color: #370000;
+		}
+
+	#reg_errors {
+		width: 350px;
+		min-height: 100px;
+		margin: 10px auto;
+	}
+	table {
+		border-collapse: collapse;
+		text-align: left;
+	}
